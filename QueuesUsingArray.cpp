@@ -12,5 +12,9 @@ private:
     int front, rear;
     int queue_array[5];
 
-
-};
+public:
+    queues()
+    {
+        front = -1;
+        rear = -1;
+    }
