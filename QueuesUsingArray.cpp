@@ -60,4 +60,10 @@ public:
         }
         cout << "\nThe elemnt deleted from the queue is: " << queue_array[front] << "\n";
 
+        //cek jika antrian hanya memiliki satu elemen
+        if (front == rear)
+        {
+            front = -1;
+            rear = -1;
+        }
         
