@@ -33,4 +33,10 @@ public:
             return;                       //2.a
         }
 
+        //2. Cek apakah antrian kosong
+        if (front == -1)
+        {
+            front = 0; //2.a
+            rear = 0;   //2.b
+        }
         
