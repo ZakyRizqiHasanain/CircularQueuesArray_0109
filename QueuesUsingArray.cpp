@@ -51,5 +51,13 @@ public:
     }
 
     void remove()
-   
+    {
+        //cek apakah antrian kosong
+        if (front == -1)
+        {
+            cout << "Queue underflow\n";
+            return;
+        }
+        cout << "\nThe elemnt deleted from the queue is: " << queue_array[front] << "\n";
+
         
