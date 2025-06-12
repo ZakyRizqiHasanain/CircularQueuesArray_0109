@@ -1,0 +1,1 @@
+jika front_position, iterasi dari front hingga rear
